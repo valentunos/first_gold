@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+
+
+</head>
+<!-- =====================================HEADER======================== -->
+	<body>
+		<header>
+			<div class="header">
+				<div class="container">
+					<div class="header__wrapper row">
+						<div class="header__left col">
+							<div class="header__left-logo">
+								<a href="#">
+									<svg width="175" height="24" viewBox="0 0 175 24" fill="none"
+										 xmlns="http://www.w3.org/2000/svg">
+										<path d="M19.3314 0.243161V17.3131H15.1733V7.07599L11.3556 17.3131H8.00002L4.15806 7.05167V17.3131H0V0.243161H4.91187L9.70215 12.0608L14.4438 0.243161H19.3314Z"
+											  fill="#121127"/>
+										<path d="M21.4947 10.5046C21.4947 9.11044 21.7541 7.88652 22.2728 6.83283C22.8078 5.77913 23.5292 4.96859 24.437 4.40122C25.3448 3.83384 26.358 3.55015 27.4765 3.55015C28.4329 3.55015 29.2678 3.74468 29.9811 4.13374C30.7106 4.5228 31.2698 5.03343 31.6589 5.66565V3.74468H35.817V17.3131H31.6589V15.3921C31.2536 16.0243 30.6862 16.535 29.9568 16.924C29.2435 17.3131 28.4086 17.5076 27.4522 17.5076C26.3499 17.5076 25.3448 17.2239 24.437 16.6565C23.5292 16.0729 22.8078 15.2543 22.2728 14.2006C21.7541 13.1307 21.4947 11.8987 21.4947 10.5046ZM31.6589 10.5289C31.6589 9.49139 31.3671 8.67274 30.7835 8.07295C30.2161 7.47315 29.5191 7.17325 28.6923 7.17325C27.8656 7.17325 27.1604 7.47315 26.5768 8.07295C26.0094 8.65653 25.7257 9.46707 25.7257 10.5046C25.7257 11.542 26.0094 12.3688 26.5768 12.9848C27.1604 13.5846 27.8656 13.8845 28.6923 13.8845C29.5191 13.8845 30.2161 13.5846 30.7835 12.9848C31.3671 12.385 31.6589 11.5664 31.6589 10.5289Z"
+											  fill="#121127"/>
+										<path d="M47.0926 3.59878C48.6813 3.59878 49.9457 4.11753 50.8859 5.15502C51.8424 6.17629 52.3206 7.58663 52.3206 9.38602V17.3131H48.1868V9.94529C48.1868 9.03749 47.9518 8.33232 47.4817 7.82979C47.0116 7.32725 46.3793 7.07599 45.585 7.07599C44.7907 7.07599 44.1585 7.32725 43.6884 7.82979C43.2182 8.33232 42.9832 9.03749 42.9832 9.94529V17.3131H38.8251V3.74468H42.9832V5.54407C43.4047 4.94427 43.972 4.47416 44.6853 4.13374C45.3986 3.7771 46.201 3.59878 47.0926 3.59878Z"
+											  fill="#121127"/>
+										<path d="M54.3833 10.5046C54.3833 9.11044 54.6427 7.88652 55.1614 6.83283C55.6964 5.77913 56.4177 4.96859 57.3255 4.40122C58.2333 3.83384 59.2465 3.55015 60.3651 3.55015C61.3215 3.55015 62.1564 3.74468 62.8696 4.13374C63.5991 4.5228 64.1584 5.03343 64.5474 5.66565V3.74468H68.7055V17.3131H64.5474V15.3921C64.1422 16.0243 63.5748 16.535 62.8453 16.924C62.132 17.3131 61.2972 17.5076 60.3407 17.5076C59.2384 17.5076 58.2333 17.2239 57.3255 16.6565C56.4177 16.0729 55.6964 15.2543 55.1614 14.2006C54.6427 13.1307 54.3833 11.8987 54.3833 10.5046ZM64.5474 10.5289C64.5474 9.49139 64.2557 8.67274 63.6721 8.07295C63.1047 7.47315 62.4076 7.17325 61.5809 7.17325C60.7541 7.17325 60.049 7.47315 59.4654 8.07295C58.898 8.65653 58.6143 9.46707 58.6143 10.5046C58.6143 11.542 58.898 12.3688 59.4654 12.9848C60.049 13.5846 60.7541 13.8845 61.5809 13.8845C62.4076 13.8845 63.1047 13.5846 63.6721 12.9848C64.2557 12.385 64.5474 11.5664 64.5474 10.5289Z"
+											  fill="#121127"/>
+										<path d="M76.8687 3.55015C77.8251 3.55015 78.66 3.74468 79.3733 4.13374C80.1028 4.5228 80.662 5.03343 81.0511 5.66565V3.74468H85.2092V17.2888C85.2092 18.537 84.9579 19.6636 84.4554 20.6687C83.969 21.69 83.2152 22.5005 82.194 23.1003C81.1889 23.7001 79.9326 24 78.425 24C76.4148 24 74.7856 23.5218 73.5374 22.5653C72.2892 21.6251 71.5759 20.3445 71.3976 18.7234H75.507C75.6367 19.2421 75.9447 19.6474 76.431 19.9392C76.9173 20.2472 77.5171 20.4012 78.2304 20.4012C79.0896 20.4012 79.7704 20.1499 80.273 19.6474C80.7917 19.1611 81.0511 18.3749 81.0511 17.2888V15.3678C80.6458 16 80.0866 16.5187 79.3733 16.924C78.66 17.3131 77.8251 17.5076 76.8687 17.5076C75.7502 17.5076 74.737 17.2239 73.8292 16.6565C72.9214 16.0729 72.2 15.2543 71.6651 14.2006C71.1463 13.1307 70.8869 11.8987 70.8869 10.5046C70.8869 9.11044 71.1463 7.88652 71.6651 6.83283C72.2 5.77913 72.9214 4.96859 73.8292 4.40122C74.737 3.83384 75.7502 3.55015 76.8687 3.55015ZM81.0511 10.5289C81.0511 9.49139 80.7593 8.67274 80.1757 8.07295C79.6083 7.47315 78.9113 7.17325 78.0845 7.17325C77.2578 7.17325 76.5526 7.47315 75.969 8.07295C75.4016 8.65653 75.1179 9.46707 75.1179 10.5046C75.1179 11.542 75.4016 12.3688 75.969 12.9848C76.5526 13.5846 77.2578 13.8845 78.0845 13.8845C78.9113 13.8845 79.6083 13.5846 80.1757 12.9848C80.7593 12.385 81.0511 11.5664 81.0511 10.5289Z"
+											  fill="#121127"/>
+										<path d="M101.008 10.31C101.008 10.6991 100.983 11.1044 100.935 11.5258H91.5243C91.5892 12.3688 91.8567 13.0172 92.3268 13.4711C92.8131 13.9088 93.4048 14.1277 94.1018 14.1277C95.1393 14.1277 95.8607 13.69 96.266 12.8146H100.692C100.465 13.7062 100.051 14.5086 99.4514 15.2219C98.8678 15.9352 98.1302 16.4944 97.2386 16.8997C96.347 17.305 95.3501 17.5076 94.2477 17.5076C92.9185 17.5076 91.7351 17.2239 90.6976 16.6565C89.6601 16.0892 88.8496 15.2786 88.266 14.2249C87.6824 13.1712 87.3906 11.9392 87.3906 10.5289C87.3906 9.11854 87.6743 7.88652 88.2416 6.83283C88.8252 5.77913 89.6358 4.96859 90.6733 4.40122C91.7108 3.83384 92.9022 3.55015 94.2477 3.55015C95.5608 3.55015 96.728 3.82573 97.7493 4.3769C98.7705 4.92806 99.5649 5.71428 100.132 6.73556C100.716 7.75684 101.008 8.94833 101.008 10.31ZM96.7523 9.21581C96.7523 8.50253 96.5091 7.93516 96.0228 7.51368C95.5365 7.0922 94.9286 6.88146 94.1991 6.88146C93.502 6.88146 92.9104 7.08409 92.424 7.48936C91.9539 7.89463 91.6621 8.47011 91.5486 9.21581H96.7523Z"
+											  fill="#121127"/>
+										<path d="M107.359 6.00608C107.846 5.26038 108.454 4.6768 109.183 4.25532C109.912 3.81763 110.723 3.59878 111.615 3.59878V8H110.472C109.434 8 108.656 8.22695 108.137 8.68085C107.619 9.11854 107.359 9.89666 107.359 11.0152V17.3131H103.201V3.74468H107.359V6.00608Z"
+											  fill="#121127"/>
+										<path d="M119.122 17.5076C117.938 17.5076 116.885 17.305 115.961 16.8997C115.037 16.4944 114.307 15.9433 113.772 15.2462C113.237 14.5329 112.937 13.7386 112.873 12.8632H116.982C117.031 13.3333 117.25 13.7143 117.639 14.0061C118.028 14.2979 118.506 14.4438 119.073 14.4438C119.592 14.4438 119.989 14.3465 120.265 14.152C120.556 13.9412 120.702 13.6738 120.702 13.3495C120.702 12.9605 120.5 12.6768 120.095 12.4985C119.689 12.304 119.033 12.0932 118.125 11.8663C117.152 11.6393 116.342 11.4043 115.693 11.1611C115.045 10.9017 114.486 10.5046 114.015 9.9696C113.545 9.41844 113.31 8.68085 113.31 7.75684C113.31 6.97872 113.521 6.27356 113.943 5.64134C114.38 4.99291 115.012 4.48227 115.839 4.10942C116.682 3.73657 117.679 3.55015 118.83 3.55015C120.532 3.55015 121.87 3.97163 122.842 4.81459C123.831 5.65755 124.398 6.77609 124.544 8.17021H120.702C120.638 7.7001 120.427 7.32725 120.07 7.05167C119.73 6.77609 119.276 6.6383 118.708 6.6383C118.222 6.6383 117.849 6.73556 117.59 6.93009C117.331 7.10841 117.201 7.35968 117.201 7.68389C117.201 8.07295 117.404 8.36474 117.809 8.55927C118.23 8.7538 118.879 8.94833 119.754 9.14286C120.759 9.40223 121.578 9.6616 122.21 9.92097C122.842 10.1641 123.393 10.5694 123.864 11.1368C124.35 11.6879 124.601 12.4336 124.617 13.3739C124.617 14.1682 124.39 14.8815 123.936 15.5137C123.499 16.1297 122.858 16.616 122.015 16.9726C121.189 17.3293 120.224 17.5076 119.122 17.5076Z"
+											  fill="#121127"/>
+										<path d="M140.17 5.7386C140.17 6.72746 139.943 7.63526 139.489 8.462C139.036 9.27254 138.339 9.92908 137.398 10.4316C136.458 10.9341 135.291 11.1854 133.897 11.1854H131.319V17.3131H127.161V0.243161H133.897C135.258 0.243161 136.409 0.478217 137.35 0.948328C138.29 1.41844 138.995 2.06687 139.465 2.89362C139.935 3.72036 140.17 4.66869 140.17 5.7386ZM133.581 7.87842C134.375 7.87842 134.967 7.69199 135.356 7.31915C135.745 6.9463 135.939 6.41945 135.939 5.7386C135.939 5.05775 135.745 4.5309 135.356 4.15805C134.967 3.78521 134.375 3.59878 133.581 3.59878H131.319V7.87842H133.581Z"
+											  fill="#121127"/>
+										<path d="M151.04 17.3131L147.49 10.8693H146.493V17.3131H142.335V0.243161H149.314C150.659 0.243161 151.802 0.478217 152.742 0.948328C153.699 1.41844 154.412 2.06687 154.882 2.89362C155.352 3.70415 155.587 4.61195 155.587 5.61702C155.587 6.75177 155.263 7.76494 154.615 8.65653C153.983 9.54812 153.042 10.1803 151.794 10.5532L155.733 17.3131H151.04ZM146.493 7.92705H149.071C149.833 7.92705 150.4 7.74063 150.773 7.36778C151.162 6.99493 151.356 6.46808 151.356 5.78723C151.356 5.1388 151.162 4.62817 150.773 4.25532C150.4 3.88247 149.833 3.69605 149.071 3.69605H146.493V7.92705Z"
+											  fill="#121127"/>
+										<path d="M166.271 17.4833C164.666 17.4833 163.19 17.1104 161.845 16.3647C160.516 15.619 159.454 14.5816 158.66 13.2523C157.881 11.9068 157.492 10.3992 157.492 8.72948C157.492 7.05978 157.881 5.56028 158.66 4.231C159.454 2.90172 160.516 1.86424 161.845 1.11854C163.19 0.372847 164.666 0 166.271 0C167.875 0 169.342 0.372847 170.672 1.11854C172.017 1.86424 173.071 2.90172 173.833 4.231C174.611 5.56028 175 7.05978 175 8.72948C175 10.3992 174.611 11.9068 173.833 13.2523C173.055 14.5816 172.001 15.619 170.672 16.3647C169.342 17.1104 167.875 17.4833 166.271 17.4833ZM166.271 13.69C167.632 13.69 168.718 13.2361 169.529 12.3283C170.356 11.4205 170.769 10.2209 170.769 8.72948C170.769 7.22188 170.356 6.02229 169.529 5.1307C168.718 4.2229 167.632 3.769 166.271 3.769C164.893 3.769 163.79 4.21479 162.964 5.10638C162.153 5.99797 161.748 7.20567 161.748 8.72948C161.748 10.2371 162.153 11.4448 162.964 12.3526C163.79 13.2442 164.893 13.69 166.271 13.69Z"
+											  fill="#121127"/>
+									</svg>
+								</a>
+							</div>
+							<div class="header__left-button">
+								<button class="find">Find a Manager</button>
+							</div>
+						</div>
+						<div class="header__menu-burger col">
+							<button class="header__menu-burger-btn">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+						</div>
+						<div class="header__right col">
+							<button class="save main-button">Saved Managers</button>
+							<button class="signOrLog main-button">Sign Up or Log In</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- =================================================================== -->
+		<!-- =====================================MAIN========================== -->
+
+		<main>
+			<div class="first-block">
+				<div class="container">
+					<div class="first-block__wrapper">
+						<div class="first-block__title">
+							<h1>
+								The Easiest Marketplace to find an Artist Manager
+							</h1>
+						</div>
+						<div class="first-block__description">
+							Our mission is simple: connecting artists looking for managers with managers looking for artists.
+						</div>
+						<div class="first-block__button">
+							<button class="start main-button">Get Started</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="about">
+				<div class="container">
+					<div class="about__title">
+						How it works
+					</div>
+					<div class="about__items row">
+						<div class="about__item col">
+							<div class="about__item-wrapper">
+								<div class="about__item-icon">
+									<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M26.818 3.18198C28.5754 1.42462 31.4246 1.42462 33.182 3.18198L44.818 14.818C46.5754 16.5754 46.5754 19.4246 44.818 21.182L33.182 32.818C31.4246 34.5754 28.5754 34.5754 26.818 32.818L15.182 21.182C13.4246 19.4246 13.4246 16.5754 15.182 14.818L26.818 3.18198Z" fill="url(#paint0_linear_2_1322)"/>
+										<path d="M20.7575 20C20.421 20 20.0932 19.9999 19.8157 20.0226C19.5109 20.0475 19.1513 20.1063 18.7894 20.2907C18.2876 20.5463 17.8797 20.9543 17.624 21.456C17.4396 21.8179 17.3808 22.1776 17.3559 22.4824C17.3333 22.7599 17.3333 23.0876 17.3333 23.4241V27.2425C17.3333 27.579 17.3333 27.9068 17.3559 28.1843C17.3808 28.4891 17.4396 28.8488 17.624 29.2106C17.8797 29.7124 18.2876 30.1204 18.7894 30.376C19.1513 30.5604 19.5109 30.6192 19.8157 30.6441C20.0932 30.6668 20.4209 30.6667 20.7574 30.6667H24.5759C24.9124 30.6667 25.2401 30.6668 25.5176 30.6441C25.8224 30.6192 26.1821 30.5604 26.544 30.376C27.0457 30.1204 27.4537 29.7124 27.7094 29.2106C27.8938 28.8488 27.9525 28.4891 27.9774 28.1843C28.0001 27.9068 28.0001 27.579 28 27.2425V23.4241C28.0001 23.0876 28.0001 22.7599 27.9774 22.4824C27.9525 22.1776 27.8938 21.8179 27.7094 21.456C27.4537 20.9543 27.0457 20.5463 26.544 20.2907C26.1821 20.1063 25.8224 20.0475 25.5176 20.0226C25.2401 19.9999 24.9124 20 24.5759 20L20.7575 20Z" fill="#90ECF4"/>
+										<path d="M7.42414 33.3333C7.08763 33.3333 6.75991 33.3333 6.48237 33.3559C6.17758 33.3808 5.81793 33.4396 5.45603 33.624C4.95427 33.8797 4.54632 34.2876 4.29066 34.7894C4.10626 35.1513 4.0475 35.5109 4.0226 35.8157C3.99992 36.0932 3.99996 36.421 4 36.7575L4 40.5759C3.99996 40.9124 3.99992 41.2401 4.0226 41.5176C4.0475 41.8224 4.10626 42.1821 4.29066 42.544C4.54632 43.0457 4.95427 43.4537 5.45603 43.7094C5.81793 43.8938 6.17758 43.9525 6.48237 43.9774C6.75991 44.0001 7.08763 44.0001 7.42414 44H11.2425C11.579 44.0001 11.9068 44.0001 12.1843 43.9774C12.4891 43.9525 12.8488 43.8938 13.2106 43.7094C13.7124 43.4537 14.1204 43.0457 14.376 42.544C14.5604 42.1821 14.6192 41.8224 14.6441 41.5176C14.6668 41.2401 14.6667 40.9124 14.6667 40.5759V36.7575C14.6667 36.421 14.6668 36.0932 14.6441 35.8157C14.6192 35.5109 14.5604 35.1513 14.376 34.7894C14.1204 34.2876 13.7124 33.8797 13.2106 33.624C12.8488 33.4396 12.4891 33.3808 12.1843 33.3559C11.9068 33.3333 11.579 33.3333 11.2425 33.3333H7.42414Z" fill="#90ECF4"/>
+										<path d="M20.7575 33.3333C20.421 33.3333 20.0932 33.3333 19.8157 33.3559C19.5109 33.3808 19.1513 33.4396 18.7894 33.624C18.2876 33.8797 17.8797 34.2876 17.624 34.7894C17.4396 35.1513 17.3808 35.5109 17.3559 35.8157C17.3333 36.0932 17.3333 36.421 17.3333 36.7575V40.5759C17.3333 40.9124 17.3333 41.2401 17.3559 41.5176C17.3808 41.8224 17.4396 42.1821 17.624 42.544C17.8797 43.0457 18.2876 43.4537 18.7894 43.7094C19.1513 43.8938 19.5109 43.9525 19.8157 43.9774C20.0932 44.0001 20.421 44.0001 20.7575 44H24.5759C24.9124 44.0001 25.2401 44.0001 25.5176 43.9774C25.8224 43.9525 26.1821 43.8938 26.544 43.7094C27.0457 43.4537 27.4537 43.0457 27.7094 42.544C27.8938 42.1821 27.9525 41.8224 27.9774 41.5176C28.0001 41.2401 28.0001 40.9124 28 40.5759V36.7575C28.0001 36.421 28.0001 36.0932 27.9774 35.8157C27.9525 35.5109 27.8938 35.1513 27.7094 34.7894C27.4537 34.2876 27.0457 33.8797 26.544 33.624C26.1821 33.4396 25.8224 33.3808 25.5176 33.3559C25.2401 33.3333 24.9124 33.3333 24.5759 33.3333H20.7575Z" fill="#90ECF4"/>
+										<path d="M7.42414 20C7.08764 20 6.75991 19.9999 6.48237 20.0226C6.17758 20.0475 5.81793 20.1063 5.45603 20.2907C4.95427 20.5463 4.54632 20.9543 4.29066 21.456C4.10626 21.8179 4.0475 22.1776 4.0226 22.4824C3.99992 22.7599 3.99996 23.0876 4 23.4241L4 27.2425C3.99996 27.579 3.99992 27.9068 4.0226 28.1843C4.0475 28.4891 4.10626 28.8487 4.29066 29.2106C4.54632 29.7124 4.95427 30.1204 5.45603 30.376C5.81793 30.5604 6.17758 30.6192 6.48237 30.6441C6.7599 30.6668 7.0876 30.6667 7.4241 30.6667H11.2425C11.579 30.6667 11.9068 30.6668 12.1843 30.6441C12.4891 30.6192 12.8487 30.5604 13.2106 30.376C13.7124 30.1204 14.1204 29.7124 14.376 29.2106C14.5604 28.8487 14.6192 28.4891 14.6441 28.1843C14.6668 27.9068 14.6667 27.5791 14.6667 27.2426V23.4241C14.6667 23.0876 14.6668 22.7599 14.6441 22.4824C14.6192 22.1776 14.5604 21.8179 14.376 21.456C14.1204 20.9543 13.7124 20.5463 13.2106 20.2907C12.8487 20.1063 12.4891 20.0475 12.1843 20.0226C11.9068 19.9999 11.5791 20 11.2426 20L7.42414 20Z" fill="#444BD3"/>
+										<defs>
+											<linearGradient id="paint0_linear_2_1322" x1="30" y1="0" x2="30" y2="36" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DEDEDE"/>
+												<stop offset="1" stop-color="#DEDEDE" stop-opacity="0"/>
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+								<div class="about__item-title">
+									Find
+								</div>
+								<div class="about__item-description">
+									Browse from 100,000+ <br>
+									Artist managers on our <br>
+									platform.
+								</div>
+							</div>
+						</div>
+						<div class="about__item col">
+							<div class="about__item-wrapper">
+								<div class="about__item-icon">
+									<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M26.818 3.18198C28.5754 1.42462 31.4246 1.42462 33.182 3.18198L44.818 14.818C46.5754 16.5754 46.5754 19.4246 44.818 21.182L33.182 32.818C31.4246 34.5754 28.5754 34.5754 26.818 32.818L15.182 21.182C13.4246 19.4246 13.4246 16.5754 15.182 14.818L26.818 3.18198Z" fill="url(#paint0_linear_2_1312)"/>
+										<path d="M7.06411 21.9757C5.33308 20.499 2.66675 21.7291 2.66675 24.0045V39.9907C2.66675 42.2657 5.33245 43.496 7.06361 42.0199L16.3761 34.0795C17.6557 32.9884 17.656 31.0115 16.3766 29.9201L7.06411 21.9757Z" fill="#90ECF4"/>
+										<path d="M19.0641 21.9757C17.3331 20.499 14.6667 21.7291 14.6667 24.0045V39.9907C14.6667 42.2657 17.3324 43.496 19.0636 42.0199L28.3761 34.0795C29.6557 32.9884 29.656 31.0115 28.3766 29.9201L19.0641 21.9757Z" fill="#444BD3"/>
+										<defs>
+											<linearGradient id="paint0_linear_2_1312" x1="30" y1="0" x2="30" y2="36" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DEDEDE"/>
+												<stop offset="1" stop-color="#DEDEDE" stop-opacity="0"/>
+											</linearGradient>
+										</defs>
+									</svg>
+
+								</div>
+								<div class="about__item-title">
+									Connect
+								</div>
+								<div class="about__item-description">
+									Find a few managers <br>
+									that fit your style, reach <br>
+									out for a meeting and <br> interview your top choices.
+								</div>
+							</div>
+						</div>
+						<div class="about__item col">
+							<div class="about__item-wrapper">
+								<div class="about__item-icon">
+									<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M31.818 3.18198C33.5754 1.42462 36.4246 1.42462 38.182 3.18198L49.818 14.818C51.5754 16.5754 51.5754 19.4246 49.818 21.182L38.182 32.818C36.4246 34.5754 33.5754 34.5754 31.818 32.818L20.182 21.182C18.4246 19.4246 18.4246 16.5754 20.182 14.818L31.818 3.18198Z" fill="url(#paint0_linear_2_1307)"/>
+										<path d="M5.97583 34.936C4.49911 36.667 5.72923 39.3334 8.00457 39.3334L23.9908 39.3334C26.2659 39.3334 27.4961 36.6677 26.02 34.9365L18.0796 25.624C16.9885 24.3444 15.0116 24.3441 13.9202 25.6235L5.97583 34.936Z" fill="#90ECF4"/>
+										<path d="M5.97583 22.936C4.49911 24.667 5.72923 27.3334 8.00457 27.3334L23.9908 27.3334C26.2659 27.3334 27.4961 24.6677 26.02 22.9365L18.0796 13.624C16.9885 12.3444 15.0116 12.3442 13.9202 13.6235L5.97583 22.936Z" fill="#444BD3"/>
+										<defs>
+											<linearGradient id="paint0_linear_2_1307" x1="35" y1="0" x2="35" y2="36" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DEDEDE"/>
+												<stop offset="1" stop-color="#DEDEDE" stop-opacity="0"/>
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+								<div class="about__item-title">
+									Hire
+								</div>
+								<div class="about__item-description">
+									Hire your favorite manager and begin working on projects based <br> on agreed arrangements
+								</div>
+							</div>
+						</div>
+						<div class="about__item col">
+							<div class="about__item-wrapper">
+								<div class="about__item-icon">
+									<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M26.818 3.18198C28.5754 1.42462 31.4246 1.42462 33.182 3.18198L44.818 14.818C46.5754 16.5754 46.5754 19.4246 44.818 21.182L33.182 32.818C31.4246 34.5754 28.5754 34.5754 26.818 32.818L15.182 21.182C13.4246 19.4246 13.4246 16.5754 15.182 14.818L26.818 3.18198Z" fill="url(#paint0_linear_2_1317)"/>
+										<path d="M29.3334 24.0096C29.3334 22.0088 27.2118 20.7206 25.4366 21.6436L18.9482 25.0172C18.6594 25.1674 18.3256 25.2067 18.0098 25.1277L14.1765 24.1694C13.5095 24.0026 12.8038 24.1 12.2067 24.4411L4.01038 29.1248C3.17951 29.5996 2.66675 30.4831 2.66675 31.4401V39.9997C2.66675 41.4724 3.86066 42.6663 5.33342 42.6663H26.6667C28.1395 42.6663 29.3334 41.4724 29.3334 39.9997V24.0096Z" fill="#90ECF4"/>
+										<path d="M12.1672 33.7707L3.53192 37.0089C3.01151 37.2041 2.66675 37.7016 2.66675 38.2574V40C2.66675 41.4728 3.86066 42.6667 5.33341 42.6667H26.6667C28.1395 42.6667 29.3334 41.4728 29.3334 40V32.0001C29.3334 31.0691 28.4036 30.4248 27.5319 30.7516L19.833 34.2294C19.0735 34.5142 18.2453 34.5614 17.4584 34.3646L14.5418 33.6355C13.7548 33.4387 12.9267 33.4859 12.1672 33.7707Z" fill="#444BD3"/>
+										<defs>
+											<linearGradient id="paint0_linear_2_1317" x1="30" y1="0" x2="30" y2="36" gradientUnits="userSpaceOnUse">
+												<stop stop-color="#DEDEDE"/>
+												<stop offset="1" stop-color="#DEDEDE" stop-opacity="0"/>
+											</linearGradient>
+										</defs>
+									</svg>
+								</div>
+								<div class="about__item-title">
+									Value
+								</div>
+								<div class="about__item-description">
+									Finding the right manager <br>
+									takes time. With no monthly fees, <br> you don't have to rush. You can choose from hundreds of managers until you find the perfect match.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="artist">
+				<div class="container">
+					<div class="artist__wrapper">
+						<div class="artist__title">
+							Are you an artist manager?
+						</div>
+						<div class="artist__description">
+							List your management services on Managers Pro.
+						</div>
+						<div class="artist__button ">
+							<button class="getStarted main-button">
+								<span>Get Started</span>
+								<svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10.862 6.86193C10.6017 7.12228 10.6017 7.54439 10.862 7.80474C11.1224 8.06509 11.5445 8.06509 11.8048 7.80474L15.1382 4.47141C15.3985 4.21106 15.3985 3.78895 15.1382 3.5286L11.8048 0.195262C11.5445 -0.0650875 11.1224 -0.0650875 10.862 0.195262C10.6017 0.455612 10.6017 0.877722 10.862 1.13807L13.0573 3.33333H1.33341C0.965225 3.33333 0.666748 3.63181 0.666748 4C0.666748 4.36819 0.965225 4.66667 1.33341 4.66667H13.0573L10.862 6.86193Z" fill="white"/>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="popular">
+				<div class="container">
+					<div class="popular__wrapper">
+						<div class="popular__title main-title">
+							Popular Managers
+						</div>
+						<div class="popular__description main-description">
+							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+						</div>
+						<div class="popular__items row">
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Marvin_McKinney.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Marvin McKinney,
+									</div>
+									<div class="popular__item-location">
+										Georgia
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Jerome_Bell.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Jerome Bell,
+									</div>
+									<div class="popular__item-location">
+										New York
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Brooklyn_Simmons.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Brooklyn Simmons,
+									</div>
+									<div class="popular__item-location">
+										Georgia
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Cameron_Williamson.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Cameron Williamson,
+									</div>
+									<div class="popular__item-location">
+										New York
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Annette_Black.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Annette Black,
+									</div>
+									<div class="popular__item-location">
+										Georgia
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Darrell_Steward.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Darrell Steward,
+									</div>
+									<div class="popular__item-location">
+										New York
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Kristin_Watson.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Kristin Watson,
+									</div>
+									<div class="popular__item-location">
+										New York
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Jane_Cooper.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Jane Cooper,
+									</div>
+									<div class="popular__item-location">
+										Georgia
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Kathryn_Murphy.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Kathryn Murphy,
+									</div>
+									<div class="popular__item-location">
+										New York
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Wade_Warren.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Wade Warren,
+									</div>
+									<div class="popular__item-location">
+										Georgia
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Cody_Fisher.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Cody Fisher,
+									</div>
+									<div class="popular__item-location">
+										New York
+									</div>
+								</div>
+							</div>
+							<div class="popular__item col">
+								<div class="popular-item__wrapper">
+									<div class="popular__item-img">
+										<img src="img/Arlene_McCoy.png" alt="Popular Manager">
+									</div>
+									<div class="popular__item-name">
+										Arlene McCoy,
+									</div>
+									<div class="popular__item-location">
+										Georgia
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="manager-genre">
+				<div class="container">
+					<div class="manager-genre__title main-title">
+						Discover Managers by Genre
+					</div>
+					<div class="manager-genre__description main-description">
+						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+					</div>
+					<div class="manager-genre__items row">
+						<div class="manager-genre__item col">
+							<div class="manager-genre__item-wrapper">
+								<div class="manager-genre__item-img">
+									<img src="img/genre/ROCK.png" alt="Alternative/Rock">
+								</div>
+								<div class="manager-genre__item-title">
+									Alternative/Rock
+								</div>
+							</div>
+						</div>
+						<div class="manager-genre__item col">
+							<div class="manager-genre__item-wrapper">
+								<div class="manager-genre__item-img">
+									<img src="img/genre/HIP_HOP.png" alt="Hip Hop">
+								</div>
+								<div class="manager-genre__item-title">
+									Hip Hop
+								</div>
+							</div>
+						</div>
+						<div class="manager-genre__item col">
+							<div class="manager-genre__item-wrapper">
+								<div class="manager-genre__item-img">
+									<img src="img/genre/Country.png" alt="Country">
+								</div>
+								<div class="manager-genre__item-title">
+									Country
+								</div>
+							</div>
+						</div>
+						<div class="manager-genre__item col">
+							<div class="manager-genre__item-wrapper">
+								<div class="manager-genre__item-img">
+									<img src="img/genre/POP.png" alt="Pop">
+								</div>
+								<div class="manager-genre__item-title">
+									Pop
+								</div>
+							</div>
+						</div>
+						<div class="manager-genre__item col">
+							<div class="manager-genre__item-wrapper">
+								<div class="manager-genre__item-img">
+									<img src="img/genre/EDM_House.png" alt="EDM/House">
+								</div>
+								<div class="manager-genre__item-title">
+									Alternative/Rock
+								</div>
+							</div>
+						</div>
+						<div class="manager-genre__item col">
+							<div class="manager-genre__item-wrapper">
+								<div class="manager-genre__item-img">
+									<img src="img/genre/All_Genres.png" alt="All Genres">
+								</div>
+								<div class="manager-genre__item-title">
+									All Genres
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="manager-city">
+				<div class="container">
+					<div class="manager-city__title main-title">
+						Discover Managers by City
+					</div>
+					<div class="manager-city__description main-description">
+						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+					</div>
+					<div class="manager-city__items row">
+						<div class="manager-city__item col">
+							<div class="manager-city__item-wrapper">
+								<div class="manager-city__item-img">
+									<img src="img/city/New_York.png" alt="New York">
+								</div>
+								<div class="manager-city__item-title">
+									New York
+								</div>
+							</div>
+						</div>
+						<div class="manager-city__item col">
+							<div class="manager-city__item-wrapper">
+								<div class="manager-city__item-img">
+									<img src="img/city/Virginia.png" alt="Virginia">
+								</div>
+								<div class="manager-city__item-title">
+									Virginia
+								</div>
+							</div>
+						</div>
+						<div class="manager-city__item col">
+							<div class="manager-city__item-wrapper">
+								<div class="manager-city__item-img">
+									<img src="img/city/Louisiana.png" alt="Louisiana">
+								</div>
+								<div class="manager-city__item-title">
+									Louisiana
+								</div>
+							</div>
+						</div>
+						<div class="manager-city__item col">
+							<div class="manager-city__item-wrapper">
+								<div class="manager-city__item-img">
+									<img src="img/city/Alabama.png" alt="Alabama">
+								</div>
+								<div class="manager-city__item-title">
+									Alabama
+								</div>
+							</div>
+						</div>
+						<div class="manager-city__item col">
+							<div class="manager-city__item-wrapper">
+								<div class="manager-city__item-img">
+									<img src="img/city/Arizona.png" alt="Arizona">
+								</div>
+								<div class="manager-city__item-title">
+									Arizona
+								</div>
+							</div>
+						</div>
+						<div class="manager-city__item col">
+							<div class="manager-city__item-wrapper">
+								<div class="manager-city__item-img">
+									<img src="img/city/Arkansas.png" alt="Arkansas">
+								</div>
+								<div class="manager-city__item-title">
+									Arkansas
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- =================================================================== -->
+		<!-- =====================================FOOTER======================== -->
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="footer__wrapper">
+						<div class="footer__menu">
+							<ul>
+								<li>
+									<a href="#">About</a>
+								</li>
+								<li>
+									<a href="#">About JCM Holdings</a>
+								</li>
+								<li>
+									<a href="#">Help and Advice</a>
+								</li>
+								<li>
+									<a href="#">Terms of Use</a>
+								</li>
+								<li>
+									<a href="#">Privacy</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+								<li>
+									<a href="#">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__socials">
+							<div class="footer__socials-facebook">
+								<a href="#">
+									<svg width="25" height="24" viewBox="0 0 25 24"
+										 xmlns="http://www.w3.org/2000/svg">
+										<path d="M24.5 12.0007C24.4996 9.7075 23.8422 7.46244 22.6056 5.53128C21.3689 3.60013 19.6048 2.06374 17.5221 1.10402C15.4394 0.144306 13.1254 -0.198561 10.8538 0.116016C8.58235 0.430592 6.44854 1.38944 4.70505 2.87904C2.96156 4.36864 1.68139 6.32662 1.0161 8.52117C0.350815 10.7157 0.328264 13.055 0.951122 15.2619C1.57398 17.4689 2.81616 19.4512 4.53061 20.9741C6.24506 22.4971 8.35999 23.4969 10.625 23.8552V15.4694H7.5785V12.0007H10.625V9.35693C10.625 6.34943 12.4167 4.68818 15.1572 4.68818C16.0573 4.70066 16.9551 4.77887 17.8438 4.92218V7.87568H16.3302C16.0723 7.84143 15.81 7.86565 15.5628 7.94656C15.3155 8.02746 15.0896 8.16297 14.9018 8.34305C14.714 8.52313 14.5691 8.74315 14.478 8.98682C14.3868 9.23049 14.3516 9.49156 14.375 9.75068V12.0007H17.7035L17.171 15.4694H14.375V23.8552C17.1978 23.4086 19.7686 21.9693 21.6248 19.7961C23.4809 17.6229 24.5005 14.8586 24.5 12.0007Z"
+											  fill="#121127" fill-opacity="0.56"/>
+									</svg>
+								</a>
+							</div>
+							<div class="footer__socials-twitter">
+								<a href="#">
+									<svg width="25" height="20" viewBox="0 0 25 20" fill="none"
+										 xmlns="http://www.w3.org/2000/svg">
+										<path d="M24.5 2.575C23.6 2.95 22.7001 3.25 21.65 3.325C22.7001 2.725 23.4501 1.75 23.8251 0.625C22.85 1.225 21.8 1.6 20.675 1.825C19.775 0.85 18.5 0.25 17.15 0.25C14.45 0.25 12.2 2.425 12.2 5.2C12.2 5.575 12.275 5.95 12.35 6.325C8.22505 6.1 4.62505 4.15 2.15005 1.15C1.70005 1.9 1.47505 2.725 1.47505 3.625C1.47505 5.35 2.37505 6.85 3.65005 7.75C2.82505 7.75 2.07505 7.525 1.40005 7.15V7.225C1.40005 9.625 3.12505 11.575 5.37505 12.025C4.92505 12.1 4.55005 12.175 4.10005 12.175C3.80005 12.175 3.50005 12.175 3.20005 12.1C3.80005 14.05 5.67505 15.475 7.77505 15.55C6.12505 16.9 3.95005 17.65 1.62505 17.65C1.25005 17.65 0.800049 17.65 0.425049 17.575C2.67505 18.925 5.30005 19.75 8.07505 19.75C17.15 19.75 22.1 12.25 22.1 5.725C22.1 5.5 22.1 5.275 22.1 5.125C23 4.375 23.825 3.55 24.5 2.575Z"
+											  fill="#121127" fill-opacity="0.56"/>
+									</svg>
+								</a>
+							</div>
+							<div class="footer__socials-instagram">
+								<a href="#">
+									<svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+										 xmlns="http://www.w3.org/2000/svg">
+										<path d="M12.5 2.775C15.5 2.775 15.86 2.78625 17.0458 2.84025C17.7593 2.84867 18.4662 2.97984 19.1353 3.228C19.6237 3.40832 20.0656 3.69588 20.4283 4.0695C20.8019 4.43218 21.0894 4.87402 21.2698 5.3625C21.5179 6.0316 21.6491 6.73841 21.6575 7.452C21.7115 8.64 21.725 9 21.725 12C21.725 15 21.7138 15.36 21.6598 16.5458C21.6513 17.2593 21.5202 17.9662 21.272 18.6353C21.0847 19.1202 20.7981 19.5606 20.4305 19.9282C20.0629 20.2958 19.6225 20.5825 19.1375 20.7698C18.4684 21.0179 17.7616 21.1491 17.048 21.1575C15.8623 21.2115 15.506 21.2228 12.5023 21.2228C9.4985 21.2228 9.14225 21.2115 7.9565 21.1575C7.24291 21.1491 6.5361 21.0179 5.867 20.7698C5.37852 20.5894 4.93668 20.3019 4.574 19.9282C4.20038 19.5656 3.91282 19.1237 3.7325 18.6353C3.48434 17.9662 3.35317 17.2593 3.34475 16.5458C3.2885 15.36 3.275 15.0038 3.275 12C3.275 8.99625 3.28625 8.64 3.34025 7.45425C3.34867 6.74066 3.47984 6.03385 3.728 5.36475C3.90898 4.87606 4.19731 4.4342 4.57175 4.07175C4.93443 3.69813 5.37627 3.41057 5.86475 3.23025C6.53385 2.98209 7.24066 2.85092 7.95425 2.8425C9.14 2.7885 9.5 2.775 12.5 2.775ZM12.5 0.75C9.4445 0.75 9.06125 0.76275 7.862 0.8175C6.92842 0.83728 6.0049 1.01478 5.1305 1.3425C4.38032 1.62483 3.70059 2.06707 3.1385 2.6385C2.56626 3.20037 2.12324 3.88012 1.84025 4.6305C1.51253 5.5049 1.33503 6.42842 1.31525 7.362C1.26275 8.56125 1.25 8.9445 1.25 12C1.25 15.0555 1.26275 15.4388 1.3175 16.638C1.33728 17.5716 1.51478 18.4951 1.8425 19.3695C2.12549 20.1199 2.56851 20.7996 3.14075 21.3615C3.70262 21.9337 4.38237 22.3768 5.13275 22.6597C6.00715 22.9875 6.93067 23.165 7.86425 23.1848C9.06425 23.2395 9.44675 23.2523 12.5023 23.2523C15.5578 23.2523 15.941 23.2395 17.1403 23.1848C18.0738 23.165 18.9974 22.9875 19.8718 22.6597C20.6188 22.3702 21.2972 21.928 21.8638 21.3615C22.4303 20.795 22.8724 20.1165 23.162 19.3695C23.4897 18.4951 23.6672 17.5716 23.687 16.638C23.7418 15.438 23.7545 15.0555 23.7545 12C23.7545 8.9445 23.7418 8.56125 23.687 7.362C23.6672 6.42842 23.4897 5.5049 23.162 4.6305C22.879 3.88012 22.436 3.20037 21.8638 2.6385C21.3019 2.06626 20.6221 1.62324 19.8718 1.34025C18.9974 1.01253 18.0738 0.83503 17.1403 0.81525C15.9388 0.76275 15.5555 0.75 12.5 0.75Z"
+											  fill="#121127" fill-opacity="0.56"/>
+										<path d="M12.4996 6.2251C11.3574 6.2251 10.2409 6.5638 9.29119 7.19836C8.3415 7.83293 7.6013 8.73486 7.16421 9.7901C6.72711 10.8453 6.61275 12.0065 6.83558 13.1267C7.05841 14.247 7.60842 15.276 8.41607 16.0836C9.22372 16.8913 10.2527 17.4413 11.373 17.6641C12.4932 17.887 13.6544 17.7726 14.7096 17.3355C15.7649 16.8984 16.6668 16.1582 17.3013 15.2085C17.9359 14.2588 18.2746 13.1423 18.2746 12.0001C18.2746 10.4685 17.6662 8.99958 16.5832 7.91656C15.5001 6.83353 14.0312 6.2251 12.4996 6.2251V6.2251ZM12.4996 15.7501C11.7579 15.7501 11.0329 15.5302 10.4162 15.1181C9.79954 14.7061 9.31889 14.1204 9.03506 13.4352C8.75123 12.7499 8.67697 11.9959 8.82167 11.2685C8.96636 10.5411 9.32351 9.87289 9.84796 9.34845C10.3724 8.824 11.0406 8.46685 11.768 8.32215C12.4955 8.17746 13.2495 8.25172 13.9347 8.53555C14.6199 8.81938 15.2056 9.30003 15.6176 9.91671C16.0297 10.5334 16.2496 11.2584 16.2496 12.0001C16.2496 12.9947 15.8545 13.9485 15.1513 14.6517C14.448 15.355 13.4942 15.7501 12.4996 15.7501Z"
+											  fill="#121127" fill-opacity="0.56"/>
+										<path d="M18.5043 7.34478C19.2499 7.34478 19.8543 6.74036 19.8543 5.99478C19.8543 5.24919 19.2499 4.64478 18.5043 4.64478C17.7587 4.64478 17.1543 5.24919 17.1543 5.99478C17.1543 6.74036 17.7587 7.34478 18.5043 7.34478Z"
+											  fill="#121127" fill-opacity="0.56"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="footer__rights">
+							© 2010-2022 ManagersPRO. All rights reserved
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
